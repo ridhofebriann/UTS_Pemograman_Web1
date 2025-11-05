@@ -16,22 +16,26 @@ Ini adalah dokumentasi submission untuk Proyek UTS Pemrograman Web 1. Dokumentas
 Berikut adalah tampilan dari halaman-halaman utama yang telah dibuat.
 
 ### 1. Halaman Login (`index.html`)
-<img src="img/preview-login.png" width="700">
+<img src="images/login.png" width="700">
 
 ### 2. Halaman Dashboard (`dashboard.html`)
-<img src="img/preview-dashboard.png" width="700">
+<img src="images/dashboard.png" width="700">
 
 ### 3. Halaman Pemesanan  (`checkout.html`)
-<img src="img/preview-history.png" width="700">
+<img src="images/checkout.png" width="700">
 
 ### 4. Halaman Stok & Manipulasi DOM (`stok.html`)
-<img src="img/preview-stok.png" width="700">
+<img src="images/stok.png" width="700">
+<img src="images/stok.png" width="700">
 
 ### 5. Halaman Tracking & Timeline (`tracking.html`)
-<img src="img/preview-tracking.png" width="700">
+<img src="images/tracking.png" width="700">
 
 ### 6. Halaman History Transaksi (`history.html`)
-<img src="img/preview-history.png" width="700">
+<img src="images/history.png" width="700">
+
+### 7. Menggunakan Dark Mode (`dashboard.html`)
+<img src="images/darkmode.png" width="700">
 
 ---
 
@@ -46,12 +50,12 @@ Sistematika pengerjaan saya dimulai dari fondasi: **struktur file yang bersih da
 **Argumentasi:** Saya memisahkan secara ketat antara struktur (HTML), *style* (CSS), dan logika (JavaScript). Alur berpikir ini adalah *best practice* "Separation of Concerns" yang krusial untuk membuat kode mudah dibaca, dikelola, dan di-debug.
 
 ```markdown
-tugas-uts-web1/
+Tugas uts pemograman web/
 │
 ├── 📁 css/
 │   └── style.css           Eksternal CSS
 │
-├── 📁 img/
+├── 📁 images/
 │   └── (Semua gambar cover buku & screenshots)
 │
 ├── 📁 js/

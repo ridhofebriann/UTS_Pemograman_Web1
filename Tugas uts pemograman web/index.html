@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - BookHaven</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body id="page-login">
+    <main class="login-container">
+      <section class="login-box card">
+        <h1>BookHaven</h1>
+        <p>Selamat datang di Toko Buku Universitas</p>
+        <form id="login-form">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Contoh: ridho@gmail.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              placeholder="Contoh: ridho123"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-sign-in-alt"></i> Login
+          </button>
+        </form>
+        <div class="login-links">
+          <a href="#" id="btn-forgot-password">Lupa Password?</a>
+          <a href="#" id="btn-register">Daftar</a>
+        </div>
+      </section>
+    </main>
+
+    <div id="modal-forgot" class="modal-overlay hidden">
+      <div class="modal-content card">
+        <span class="modal-close" data-target="modal-forgot">&times;</span>
+        <h2>Lupa Password</h2>
+        <p>Fitur ini sedang dalam pengembangan.</p>
+      </div>
+    </div>
+    <div id="modal-register" class="modal-overlay hidden">
+      <div class="modal-content card">
+        <span class="modal-close" data-target="modal-register">&times;</span>
+        <h2>Daftar Akun Baru</h2>
+        <p>Fitur ini sedang dalam pengembangan.</p>
+      </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+
+    <div id="toast-notification" class="toast">
+      <span id="toast-message">Ini adalah pesan</span>
+    </div>
+  </body>
+</html>

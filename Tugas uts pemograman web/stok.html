@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katalog Buku - BookHaven</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body id="page-stok">
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">BookHaven</div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="stok.html" class="active">Katalog Buku</a></li>
+            <li><a href="checkout.html">Pemesanan</a></li>
+            <li><a href="tracking.html">Tracking</a></li>
+            <li><a href="history.html">History</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-right">
+          <div class="user-profile" id="user-profile-name">User</div>
+          <button id="theme-toggle" class="theme-toggle-btn">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button id="btn-logout" class="btn-logout">
+            <i class="fas fa-sign-out-alt"></i> Logout
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h2><i class="fas fa-book-open"></i> Manajemen Stok Buku</h2>
+
+      <section class="card">
+        <h3>Tambah Buku Baru (Manipulasi DOM)</h3>
+        <form id="add-stock-form" class="form-grid">
+          <div class="form-group">
+            <label for="kodeBarang">Kode Barang</label>
+            <input
+              type="text"
+              id="kodeBarang"
+              placeholder="Contoh: EKMA1234"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="namaBarang">Nama Barang</label>
+            <input
+              type="text"
+              id="namaBarang"
+              placeholder="Judul Buku"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="jenisBarang">Jenis</label>
+            <input
+              type="text"
+              id="jenisBarang"
+              placeholder="Buku Ajar"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="edisi">Edisi</label>
+            <input type="text" id="edisi" placeholder="1" required />
+          </div>
+          <div class="form-group">
+            <label for="stok">Stok</label>
+            <input type="number" id="stok" placeholder="100" required />
+          </div>
+          <div class="form-group">
+            <label for="harga">Harga</label>
+            <input type="text" id="harga" placeholder="Rp 150.000" required />
+          </div>
+          <button type="submit" class="btn btn-primary form-grid-span">
+            <i class="fas fa-plus"></i> Tambah Stok
+          </button>
+        </form>
+      </section>
+
+      <section class="card">
+        <h3>Katalog Buku Saat Ini</h3>
+        <div class="table-container">
+          <table class="stock-table">
+            <thead>
+              <tr>
+                <th>Cover</th>
+                <th>Kode Barang</th>
+                <th>Nama Barang</th>
+                <th>Jenis/Edisi</th>
+                <th>Harga</th>
+                <th>Stok</th>
+              </tr>
+            </thead>
+            <tbody id="stock-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>&copy; 2025 BookHaven. Dibuat untuk UTS Pemrograman Web 1.</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+
+    <div id="toast-notification" class="toast">
+      <span id="toast-message">Ini adalah pesan</span>
+    </div>
+  </body>
+</html>

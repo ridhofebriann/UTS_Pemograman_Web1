@@ -2,12 +2,10 @@
 
 # 📚 Proyek UTS Pemrograman Web 1: "BookHaven"
 
-Halo, perkenalkan, saya [Isi Nama Lengkap Kamu] (NIM: [Isi NIM Kamu]).
+**Halo, perkenalkan, saya M. Ridho Febrian NIM: 312410500 Kelas: TI.24.A.5**
 
 Ini adalah dokumentasi submission untuk Proyek UTS Pemrograman Web 1. Dokumentasi ini disusun untuk menjelaskan **sistematika, alur berpikir, dan argumentasi** saya dalam merancang dan membangun aplikasi front-end "BookHaven" sesuai dengan 7 kriteria penilaian yang diberikan.
 
-**Aplikasi ini di-deploy dan dapat dilihat live di:**
-[https://nama-kamu.github.io/uts-pemrograman-web-1/](https://nama-kamu.github.io/uts-pemrograman-web-1/)
 
 ---
 
@@ -16,26 +14,27 @@ Ini adalah dokumentasi submission untuk Proyek UTS Pemrograman Web 1. Dokumentas
 Berikut adalah tampilan dari halaman-halaman utama yang telah dibuat.
 
 ### 1. Halaman Login (`index.html`)
-<img src="images/login.png" width="700">
+<img src="Tugas uts pemograman web/images/login.png" width="700">
 
 ### 2. Halaman Dashboard (`dashboard.html`)
-<img src="images/dashboard.png" width="700">
+<img src="Tugas uts pemograman web/images/dashboard.png" width="700">
 
 ### 3. Halaman Pemesanan  (`checkout.html`)
-<img src="images/checkout.png" width="700">
+<img src="Tugas uts pemograman web/images/checkout.png" width="700">
 
 ### 4. Halaman Stok & Manipulasi DOM (`stok.html`)
-<img src="images/stok.png" width="700">
-<img src="images/stok.png" width="700">
+<img src="Tugas uts pemograman web/images/stok.png" width="700">
+
+<img src="Tugas uts pemograman web/images/stok2.png" width="700">
 
 ### 5. Halaman Tracking & Timeline (`tracking.html`)
-<img src="images/tracking.png" width="700">
+<img src="Tugas uts pemograman web/images/tracking.png" width="700">
 
 ### 6. Halaman History Transaksi (`history.html`)
-<img src="images/history.png" width="700">
+<img src="Tugas uts pemograman web/images/history.png" width="700">
 
 ### 7. Menggunakan Dark Mode (`dashboard.html`)
-<img src="images/darkmode.png" width="700">
+<img src="Tugas uts pemograman web/images/darkmode.png" width="700">
 
 ---
 
@@ -165,4 +164,4 @@ Argumentasi saya adalah bahwa dengan pendekatan ini, aplikasi yang dihasilkan ti
 
 1.  Clone atau unduh repositori ini.
 2.  Buka file `index.html` di browser (Disarankan Chrome atau Firefox).
-3.  Login menggunakan salah satu data dari `js/data.js` (Contoh: `rina@gmail.com` / `rina123`).
+3.  Login menggunakan salah satu data dari `js/data.js` (Contoh: `ridho@gmail.com` / `ridho123`).
